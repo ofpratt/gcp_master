@@ -5,7 +5,7 @@ view: access_token {
   dimension: outgoing_access_token_id {
     primary_key: yes
     type: number
-    sql: ${TABLE}.outgoing_access_token_id ;;
+    sql: rand() ;;
     tags: ["hubspot_contact_id"]
   }
 
